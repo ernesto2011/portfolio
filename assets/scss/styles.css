@@ -824,7 +824,7 @@ button {
 }
 .work__container .container .card .contentBx .size span:hover {
   color: #111;
-  background: #dc7928;
+  background: #ff811b;
 }
 .work__container .container .card .contentBx .color span {
   width: 20px;
@@ -835,7 +835,7 @@ button {
   cursor: pointer;
 }
 .work__container .container .card .contentBx .color span:nth-child(2) {
-  background: #9bdc28;
+  background: #2cc73b;
 }
 .work__container .container .card .contentBx .color span:nth-child(3) {
   background: #03a9f4;
