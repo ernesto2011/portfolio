@@ -271,7 +271,8 @@ button {
   margin-bottom: var(--mb-5);
 }
 .home__title-color {
-  color: #2a10d1;
+  color: #0315bb;
+  
 }
 .home__social {
   display: flex;
@@ -740,11 +741,11 @@ button {
 .work__container .container .card:hover::before {
   -webkit-clip-path: circle(300px at 80% -20%);
           clip-path: circle(300px at 80% -20%);
-  background: #5bfb4f;
+  background: #321fe3;
   filter: blur(20px);
 }
 .work__container .container .card:after {
-  content: "css";
+  content: "</>";
   position: absolute;
   top: 30%;
   left: -20%;
@@ -824,7 +825,7 @@ button {
 }
 .work__container .container .card .contentBx .size span:hover {
   color: #111;
-  background: #ff811b;
+  background: #1bd9ff;
 }
 .work__container .container .card .contentBx .color span {
   width: 20px;
