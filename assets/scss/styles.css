@@ -594,6 +594,14 @@ button {
   --hue-1: 180;
   --hue-2: 50;
 }
+.skills__container .container .card__mongo {
+  --hue-1: 120;
+  --hue-2: 140;
+}
+.skills__container .container .card__tailwind {
+  --hue-1: 184;
+  --hue-2: 233;
+}
 .skills__container .container .card__yellow {
   --hue-1: 80;
   --hue-2: 30;
