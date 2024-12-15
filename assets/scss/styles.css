@@ -79,7 +79,7 @@ h4 {
 ul {
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style:none;
 }
 
 a {
@@ -390,6 +390,7 @@ button {
   transform: rotateY(90deg) translateZ(160px);
   opacity: 0.08;
   border-radius: 0 0 3px 34px;
+  list-style: none;
 }
 .about .container .card .rigth ul {
   margin-left: 21px;
@@ -401,9 +402,10 @@ button {
 .about .container .card .rigth ul li {
   padding-bottom: 8px;
   position: relative;
+  list-style: none;
 }
 .about .container .card .rigth ul li::before {
-  content: "x";
+  content: "🔵 ";
   position: absolute;
   left: -21px;
   opacity: 0.55;
@@ -610,6 +612,14 @@ button {
   --hue-1: 600;
   --hue-2: 200;
 }
+.skills__container .container .card__next {
+  --hue-1: 170;
+  --hue-2: 225;
+}
+.skills__container .container .card__vite {
+  --hue-1: 170;
+  --hue-2: 285;
+}
 .skills__container .container .card__scale-1 {
   width: 148px;
   height: 148px;
@@ -627,7 +637,7 @@ button {
 .skills__container .container .card__scale-1, .skills__container .container .card__scale-2 {
   position: absolute;
   filter: blur(24px);
-  transition: transform 0.3s ease-in;
+  transition: transform 0.5s ease-in;
 }
 .skills__container .container .card__article:hover .card__scale-1 {
   transform: scale(6);
