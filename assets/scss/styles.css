@@ -5,7 +5,7 @@
 :root {
   --header-height: 3rem;
   --font-semi: 600;
-  --bg-color: linear-gradient(90deg, hsl(0, 0%, 8%) 0%, hsl(0, 0%, 14%) 100%);
+  --bg-color: linear-gradient(90deg, hsl(0, 0%, 0%) 0%, hsl(0, 0%, 14%) 100%);
   /*===== Colores =====*/
   /* HSL color mode */
   --hue-color: 140;
