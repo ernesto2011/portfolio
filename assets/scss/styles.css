@@ -616,6 +616,10 @@ button {
   --hue-1: 170;
   --hue-2: 225;
 }
+.skills__container .container .card__nestjs {
+  --hue-1: 347;
+  --hue-2: 320;
+}
 .skills__container .container .card__vite {
   --hue-1: 170;
   --hue-2: 285;
@@ -843,7 +847,7 @@ button {
 }
 .work__container .container .card .contentBx .size span:hover {
   color: #111;
-  background: #1bd9ff;
+  background: #c7c7c7;
 }
 .work__container .container .card .contentBx .color span {
   width: 20px;
